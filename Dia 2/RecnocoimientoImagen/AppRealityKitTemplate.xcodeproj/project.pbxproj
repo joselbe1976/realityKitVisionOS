@@ -12,6 +12,8 @@
 		3127EB6B2C137C9100AC7486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3127EB6A2C137C9100AC7486 /* Assets.xcassets */; };
 		3127EB6E2C137C9100AC7486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3127EB6D2C137C9100AC7486 /* Preview Assets.xcassets */; };
 		3127EB752C137CC700AC7486 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127EB742C137CC700AC7486 /* Coordinator.swift */; };
+		31552AC72C14A63300DBDA83 /* robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 31552AC62C14A63300DBDA83 /* robot.usdz */; };
+		31552AC92C14AADF00DBDA83 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 31552AC82C14AADF00DBDA83 /* toy_drummer.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3127EB6A2C137C9100AC7486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3127EB6D2C137C9100AC7486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3127EB742C137CC700AC7486 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		31552AC62C14A63300DBDA83 /* robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = robot.usdz; path = "../../../Recursos alumnos/robot.usdz"; sourceTree = "<group>"; };
+		31552AC82C14AADF00DBDA83 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		3127EB652C137C9000AC7486 /* AppRealityKitTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				31552AC62C14A63300DBDA83 /* robot.usdz */,
+				31552AC82C14AADF00DBDA83 /* toy_drummer.usdz */,
 				3127EB662C137C9000AC7486 /* AppDelegate.swift */,
 				3127EB682C137C9000AC7486 /* ContentView.swift */,
 				3127EB742C137CC700AC7486 /* Coordinator.swift */,
@@ -129,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3127EB6E2C137C9100AC7486 /* Preview Assets.xcassets in Resources */,
+				31552AC72C14A63300DBDA83 /* robot.usdz in Resources */,
 				3127EB6B2C137C9100AC7486 /* Assets.xcassets in Resources */,
+				31552AC92C14AADF00DBDA83 /* toy_drummer.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
