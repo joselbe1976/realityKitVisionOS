@@ -8,9 +8,12 @@
 import Foundation
 import ARKit
 import RealityKit
+import Combine
 
 class Coordinator: NSObject {
     weak var view: ARView?
+    
+    var collisionSubscriptions = [AnyCancellable]()
     
     //Tap Gesture
     @objc func handleTap(_ recognizer: UITapGestureRecognizer){
