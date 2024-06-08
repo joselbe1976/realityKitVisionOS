@@ -1,0 +1,562 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8,
+                0
+              ],
+              "identifier" : "C58E15F5-EAF0-4A5D-84B1-B91B7F99E43B",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "350BAE67-61C7-4C5A-AD0B-8079FAB1EC16" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "bgMaterial",
+                          {
+                            "typeName" : "String",
+                            "value" : "plastic"
+                          }
+                        ],
+                        [
+                          "bgMaterialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.2,
+                              0.6,
+                              1,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "boundHeight",
+                          {
+                            "typeName" : "Double",
+                            "value" : 1.5
+                          }
+                        ],
+                        [
+                          "boundWidth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 7.33
+                          }
+                        ],
+                        [
+                          "depth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.128
+                          }
+                        ],
+                        [
+                          "font",
+                          {
+                            "typeName" : "String",
+                            "value" : "Helvetica"
+                          }
+                        ],
+                        [
+                          "hasBackground",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.1
+                          }
+                        ],
+                        [
+                          "horizontalAlignment",
+                          {
+                            "typeName" : "String",
+                            "value" : "center"
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "plastic"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "oneLine",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "text",
+                          {
+                            "typeName" : "String",
+                            "value" : "Seleccionar para editar"
+                          }
+                        ],
+                        [
+                          "verticalPosition",
+                          {
+                            "typeName" : "String",
+                            "value" : "middle"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "back_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "5E139356-336A-491C-BD3D-066C0438843F"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.Text",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B763F127-3A54-44CA-84A8-E44B8B5E16CF"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.17378998,
+                        -9.7145865e-09,
+                        -1.6184781e-07,
+                        0,
+                        -1.3530696e-07,
+                        0.086895026,
+                        -0.15050648,
+                        0,
+                        8.933701e-08,
+                        0.15050648,
+                        0.086895026,
+                        0,
+                        -0.00010454517,
+                        0.007633889,
+                        0.0075039063,
+                        1
+                      ]
+                    }
+                  },
+                  "1262ECF3-6B0B-4E82-960C-6214A2435283" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "End Table"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C3D89DA9-0668-444D-A67E-F0A9699EED4A"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.EndTable.6f06c10f-c9e4-4b61-8b73-26a8a28c16b9",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C52224F1-1166-40D5-A792-7C8EA4D469BF"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "table"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        3.455878,
+                        0,
+                        -0.3401308,
+                        1
+                      ]
+                    }
+                  },
+                  "B6DE0273-1978-40F0-B4FF-3216D04B7C26" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Dining Chair High Back"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "0E321201-F77A-46F6-8239-3E17991E4721"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.DiningChairHighBack.adb893d3-4d98-47d5-a01c-97f584ea7aea",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4772CDBC-3DCB-4458-8AEC-11DEB3364E46"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "chair"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        2.156467,
+                        -0.13974679,
+                        -1.0551901,
+                        1
+                      ]
+                    }
+                  },
+                  "BE162C65-D3D0-4B12-8989-F8C5C6734D2D" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Dresser"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E753E9AD-D4E1-4F7B-8BF3-5DDF700660D9"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Dresser.8311ba23-42cf-4171-8262-5810a7867dd3",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "1556EB34-443D-4C9D-B45D-5F9052672F28"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "armoire"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        -2.3474784,
+                        0,
+                        4.7401852e-07,
+                        1
+                      ]
+                    }
+                  },
+                  "Cube" : null,
+                  "ECEF9FBA-9AC8-4ED4-846C-7AB5DBF1EE50" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Diner Booth"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "0E8DCD7C-5A96-4FB6-AE8A-F094AD16F5BA"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.DinerBooth.dda311e5-5b9e-450a-b6db-aa0714497d4f",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "01ED8A35-1BA7-428A-AA9A-8E1077C2D828"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "sofa"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        -0.059452496,
+                        -0.073646426,
+                        -0.5815002,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Escena",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  1,
+                  0,
+                  -0,
+                  0,
+                  -0,
+                  0.87522,
+                  -0.48372516,
+                  0,
+                  0,
+                  0.48372516,
+                  0.87522,
+                  0,
+                  0,
+                  0.7188461,
+                  1.245077,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
