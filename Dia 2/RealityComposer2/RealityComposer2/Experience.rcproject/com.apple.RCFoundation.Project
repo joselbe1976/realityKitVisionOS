@@ -1,0 +1,232 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8
+              ],
+              "identifier" : "A49A53B9-924F-4A2E-AAC3-CC6231D2A2C3",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "3CB47901-5FEB-4D81-B318-E168E5A6D078" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Iced Doughnut with Sprinkles"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1A0A4E57-EFF9-4823-934E-DAE38D032210"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.IcedDoughnutSprinkles.af5830de-fdb9-476c-a7b0-81e99103f431",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "60F2C82D-C95A-48B8-89E7-0C55DD3D26E6"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.49277174,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.49277174,
+                        3.1676315e-14,
+                        0,
+                        0,
+                        -3.1676315e-14,
+                        0.49277174,
+                        0,
+                        0.036909267,
+                        0.069682024,
+                        -0.015516436,
+                        1
+                      ]
+                    }
+                  },
+                  "513D8455-77DD-48E2-8B99-6AD695FFA55F" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Iced Doughnut with Sprinkles"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "F9D07D77-9062-45C4-952E-16FE39DC5204"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.IcedDoughnutSprinkles.af5830de-fdb9-476c-a7b0-81e99103f431",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "69A7C0F9-2574-42AB-833A-6D5F6166EFE1"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.49277174,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.49277174,
+                        1.2528284e-14,
+                        0,
+                        0,
+                        -1.2528284e-14,
+                        0.49277174,
+                        0,
+                        -0.03352958,
+                        0.06968373,
+                        -0.015516439,
+                        1
+                      ]
+                    }
+                  },
+                  "C83D9882-7D97-4B0A-8F49-57050B8B13F8" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Escena",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.86278313,
+                  -1.4901156e-08,
+                  0.5055741,
+                  0,
+                  0.024433708,
+                  0.99883145,
+                  -0.041697096,
+                  0,
+                  -0.50498337,
+                  0.04832867,
+                  0.861775,
+                  0,
+                  -0.19582714,
+                  0.10130817,
+                  0.448719,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
