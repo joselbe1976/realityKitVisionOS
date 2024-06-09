@@ -14,6 +14,8 @@
 		31BC98452C159FBF0045297B /* KCNetworkVisionPro in Frameworks */ = {isa = PBXBuildFile; productRef = 31BC98442C159FBF0045297B /* KCNetworkVisionPro */; };
 		31BC984C2C15A20C0045297B /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC984B2C15A20C0045297B /* models.swift */; };
 		31BC984E2C15A24A0045297B /* AppStateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC984D2C15A24A0045297B /* AppStateVM.swift */; };
+		31BC98502C15AB8F0045297B /* rootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC984F2C15AB8F0045297B /* rootView.swift */; };
+		31BC98522C15AC7F0045297B /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC98512C15AC7F0045297B /* loginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		31BC983D2C159A230045297B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31BC984B2C15A20C0045297B /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
 		31BC984D2C15A24A0045297B /* AppStateVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateVM.swift; sourceTree = "<group>"; };
+		31BC984F2C15AB8F0045297B /* rootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootView.swift; sourceTree = "<group>"; };
+		31BC98512C15AC7F0045297B /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		31BC984A2C15A1E70045297B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				31BC984F2C15AB8F0045297B /* rootView.swift */,
+				31BC98512C15AC7F0045297B /* loginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,7 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BC98502C15AB8F0045297B /* rootView.swift in Sources */,
 				31BC98332C159A220045297B /* AppVisionDragonBallApp.swift in Sources */,
+				31BC98522C15AC7F0045297B /* loginView.swift in Sources */,
 				31BC984E2C15A24A0045297B /* AppStateVM.swift in Sources */,
 				31BC984C2C15A20C0045297B /* models.swift in Sources */,
 			);
