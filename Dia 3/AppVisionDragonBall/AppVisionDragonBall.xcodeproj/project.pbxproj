@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BC98312C159A220045297B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 31BC98302C159A220045297B /* RealityKitContent */; };
+		31BC98332C159A220045297B /* AppVisionDragonBallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC98322C159A220045297B /* AppVisionDragonBallApp.swift */; };
+		31BC98392C159A230045297B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BC98382C159A230045297B /* Assets.xcassets */; };
+		31BC983C2C159A230045297B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BC983B2C159A230045297B /* Preview Assets.xcassets */; };
+		31BC98452C159FBF0045297B /* KCNetworkVisionPro in Frameworks */ = {isa = PBXBuildFile; productRef = 31BC98442C159FBF0045297B /* KCNetworkVisionPro */; };
+		31BC984C2C15A20C0045297B /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC984B2C15A20C0045297B /* models.swift */; };
+		31BC984E2C15A24A0045297B /* AppStateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC984D2C15A24A0045297B /* AppStateVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31BC982B2C159A220045297B /* AppVisionDragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppVisionDragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BC982F2C159A220045297B /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		31BC98322C159A220045297B /* AppVisionDragonBallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisionDragonBallApp.swift; sourceTree = "<group>"; };
+		31BC98382C159A230045297B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31BC983B2C159A230045297B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31BC983D2C159A230045297B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BC984B2C15A20C0045297B /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		31BC984D2C15A24A0045297B /* AppStateVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BC98282C159A220045297B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BC98312C159A220045297B /* RealityKitContent in Frameworks */,
+				31BC98452C159FBF0045297B /* KCNetworkVisionPro in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BC98222C159A220045297B = {
+			isa = PBXGroup;
+			children = (
+				31BC982D2C159A220045297B /* AppVisionDragonBall */,
+				31BC982E2C159A220045297B /* Packages */,
+				31BC982C2C159A220045297B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31BC982C2C159A220045297B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BC982B2C159A220045297B /* AppVisionDragonBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BC982D2C159A220045297B /* AppVisionDragonBall */ = {
+			isa = PBXGroup;
+			children = (
+				31BC98472C15A1D00045297B /* Domain */,
+				31BC98462C15A1C70045297B /* Presentation */,
+				31BC98322C159A220045297B /* AppVisionDragonBallApp.swift */,
+				31BC98382C159A230045297B /* Assets.xcassets */,
+				31BC983D2C159A230045297B /* Info.plist */,
+				31BC983A2C159A230045297B /* Preview Content */,
+			);
+			path = AppVisionDragonBall;
+			sourceTree = "<group>";
+		};
+		31BC982E2C159A220045297B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				31BC982F2C159A220045297B /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		31BC983A2C159A230045297B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31BC983B2C159A230045297B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31BC98462C15A1C70045297B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				31BC984A2C15A1E70045297B /* Views */,
+				31BC98492C15A1E00045297B /* ViewModels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		31BC98472C15A1D00045297B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				31BC98482C15A1DA0045297B /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		31BC98482C15A1DA0045297B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31BC984B2C15A20C0045297B /* models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31BC98492C15A1E00045297B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				31BC984D2C15A24A0045297B /* AppStateVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		31BC984A2C15A1E70045297B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BC982A2C159A220045297B /* AppVisionDragonBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BC98402C159A230045297B /* Build configuration list for PBXNativeTarget "AppVisionDragonBall" */;
+			buildPhases = (
+				31BC98272C159A220045297B /* Sources */,
+				31BC98282C159A220045297B /* Frameworks */,
+				31BC98292C159A220045297B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppVisionDragonBall;
+			packageProductDependencies = (
+				31BC98302C159A220045297B /* RealityKitContent */,
+				31BC98442C159FBF0045297B /* KCNetworkVisionPro */,
+			);
+			productName = AppVisionDragonBall;
+			productReference = 31BC982B2C159A220045297B /* AppVisionDragonBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BC98232C159A220045297B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					31BC982A2C159A220045297B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 31BC98262C159A220045297B /* Build configuration list for PBXProject "AppVisionDragonBall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31BC98222C159A220045297B;
+			packageReferences = (
+				31BC98432C159FBF0045297B /* XCRemoteSwiftPackageReference "KCNetworkVisionPro" */,
+			);
+			productRefGroup = 31BC982C2C159A220045297B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BC982A2C159A220045297B /* AppVisionDragonBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BC98292C159A220045297B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BC983C2C159A230045297B /* Preview Assets.xcassets in Resources */,
+				31BC98392C159A230045297B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BC98272C159A220045297B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BC98332C159A220045297B /* AppVisionDragonBallApp.swift in Sources */,
+				31BC984E2C15A24A0045297B /* AppStateVM.swift in Sources */,
+				31BC984C2C15A20C0045297B /* models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31BC983E2C159A230045297B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		31BC983F2C159A230045297B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		31BC98412C159A230045297B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppVisionDragonBall/Preview Content\"";
+				DEVELOPMENT_TEAM = L27GL65S5Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.keepcoding.templare.AppVisionDragonBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		31BC98422C159A230045297B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppVisionDragonBall/Preview Content\"";
+				DEVELOPMENT_TEAM = L27GL65S5Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.keepcoding.templare.AppVisionDragonBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BC98262C159A220045297B /* Build configuration list for PBXProject "AppVisionDragonBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BC983E2C159A230045297B /* Debug */,
+				31BC983F2C159A230045297B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BC98402C159A230045297B /* Build configuration list for PBXNativeTarget "AppVisionDragonBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BC98412C159A230045297B /* Debug */,
+				31BC98422C159A230045297B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31BC98432C159FBF0045297B /* XCRemoteSwiftPackageReference "KCNetworkVisionPro" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joselbe1976/KCNetworkVisionPro";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31BC98302C159A220045297B /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		31BC98442C159FBF0045297B /* KCNetworkVisionPro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BC98432C159FBF0045297B /* XCRemoteSwiftPackageReference "KCNetworkVisionPro" */;
+			productName = KCNetworkVisionPro;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 31BC98232C159A220045297B /* Project object */;
+}
