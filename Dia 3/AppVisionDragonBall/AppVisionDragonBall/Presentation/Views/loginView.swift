@@ -69,7 +69,7 @@ struct loginView: View {
                         //Boton de login
                         Button(action: {
                             Task{
-                                //Llamammos al login
+                                //Llamamos al login
                                 await appStateVM.login(user: self.user, password: self.pass)
                             }
                             

@@ -15,8 +15,14 @@ import KCNetworkVisionPro
 @Observable
 final class AppStateVM{
     var status = Status.none //Estado del login
+    
+    @ObservationIgnored
     var isLogged = false //Si esta o no logado
 
+    @ObservationIgnored
+    var heroSelected: HerosData? //heroe seleccionado para abrir alguna ventana
+    
+    
     init(){
         //Control de auto-login
         Task{
@@ -59,6 +65,12 @@ final class AppStateVM{
                 self.isLogged = true
             }
         }
+    }
+    
+    
+    //Asignar el Heroe seleccionado
+    func setHero(hero: HerosData){
+        self.heroSelected = hero
     }
     
 }

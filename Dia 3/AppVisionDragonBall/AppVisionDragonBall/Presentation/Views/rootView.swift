@@ -20,7 +20,7 @@ struct rootView: View {
                 case .error(error: let errorString):
                     Text("Error \(errorString)")
                 case .loaded:
-                    Text("Home de la app")
+                    PrincipalView()
                 }
             }
         }
