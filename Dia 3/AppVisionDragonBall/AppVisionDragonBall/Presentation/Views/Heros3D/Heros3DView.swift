@@ -44,6 +44,29 @@ struct Heros3DView: View {
             }
             
         }
+        .ornament(attachmentAnchor: .scene(.trailing)) {
+            VStack{
+                Button(action: {
+                    //set hero selected
+                    if let hero = selectedHero{
+                        appStateVM.setHero(hero: hero)
+                        //open Window
+                        openWindow(id:"Modelo3D")
+                    }
+                    
+                    
+                }, label: {
+                    Image(systemName: "rotate.3d")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                        
+                })
+               
+            }
+            .frame(width: 60, height: 160)
+            .glassBackgroundEffect()
+            
+        }
 
     }
 }

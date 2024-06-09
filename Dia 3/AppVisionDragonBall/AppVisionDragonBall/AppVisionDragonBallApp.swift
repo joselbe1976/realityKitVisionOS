@@ -35,5 +35,13 @@ struct AppVisionDragonBallApp: App {
         .windowStyle(.automatic)
         .defaultSize(width: 1000.0, height: 1000.0)
         
+        
+        
+        //Ventana Volumetrica
+        WindowGroup(id: "Modelo3D"){
+            Volume3DView()
+                .environment(appState)
+        }
+        .windowStyle(.volumetric)
     }
 }

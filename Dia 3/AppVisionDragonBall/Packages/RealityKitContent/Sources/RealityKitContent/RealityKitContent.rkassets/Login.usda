@@ -10,6 +10,7 @@
 
 def Xform "Root"
 {
+    reorder nameChildren = ["dragonBallCorto_wav", "dragonballMain_wav", "SoundEmitter"]
     def RealityKitAudioFile "dragonBallCorto_wav"
     {
         uniform asset file = @dragonBallCorto.wav@
@@ -18,6 +19,14 @@ def Xform "Root"
     def RealityKitAudioFile "dragonballMain_wav"
     {
         uniform asset file = @dragonballMain.wav@
+    }
+
+    def Xform "SoundEmitter"
+    {
+        def RealityKitComponent "AmbientAudio"
+        {
+            uniform token info:id = "RealityKit.AmbientAudio"
+        }
     }
 }
 

@@ -73,4 +73,24 @@ final class AppStateVM{
         self.heroSelected = hero
     }
     
+    
+    //Funcion 3d. Ojo esto deberia venir en el modelo 3D del Heroe desde el servidor.
+    func getHeroSelected3Dvalues() -> (String, String) {
+        
+        //datos de Vegeta
+        var soundFile = "/Root/vegeta/Vegatable_wav" //audio
+        var usdaFile = "Vegeta.usda" //Scene
+        
+        
+        //si es Goku, pues Goku
+        if heroSelected!.id3DModel != "Vegeta"{
+            soundFile = "/Root/goku/goku_wav" //audio
+            usdaFile = "goku.usda" //Scene
+          
+        }
+        
+        return (soundFile, usdaFile)
+        
+    }
+    
 }

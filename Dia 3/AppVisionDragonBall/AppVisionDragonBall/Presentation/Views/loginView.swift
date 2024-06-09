@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import RealityKit
+import RealityKitContent
 
 struct loginView: View {
     @Environment(AppStateVM.self) private var appStateVM
@@ -88,9 +90,33 @@ struct loginView: View {
             }
             
             // ------------------------------
-            //Reality Kit para cargar sonido
+            // Reality Kit para cargar sonido
             // ------------------------------
-            
+            RealityView{ content in
+                if let scene = try? await Entity(named: "Login", in:  realityKitContentBundle){
+                    
+                    //BUscamos el Emisor de sonido
+                    guard let SoundEmitter =  scene.findEntity(named: "SoundEmitter") else {
+                        NSLog("Emitter no encontrado en la escena Login")
+                        return
+                    }
+                    
+                    //buscamos el audio
+                    guard let recourceSound = try? await AudioFileResource(named: "/Root/dragonballMain_wav", from: "Login.usda", in: realityKitContentBundle) else {
+                        NSLog("No encuenta el sonido")
+                        return
+                    }
+                    
+                    //asociado al emisor de Sonido el audio
+                    let audio = SoundEmitter.prepareAudio(recourceSound)
+                    audio.play()
+                    
+                    //añadimos la escenea a Content
+                    content.add(scene)
+                    
+                    
+                }
+            }
         }
     }
 }

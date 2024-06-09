@@ -22,6 +22,7 @@
 		31BC985B2C15BC570045297B /* HerosRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC985A2C15BC570045297B /* HerosRowView.swift */; };
 		31D40FB12C15D51C00688F98 /* heroMapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D40FB02C15D51C00688F98 /* heroMapKit.swift */; };
 		31D40FB42C15D8BE00688F98 /* Heros3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D40FB32C15D8BE00688F98 /* Heros3DView.swift */; };
+		31D40FB62C15EB1E00688F98 /* Volume3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D40FB52C15EB1E00688F98 /* Volume3DView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		31BC985A2C15BC570045297B /* HerosRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosRowView.swift; sourceTree = "<group>"; };
 		31D40FB02C15D51C00688F98 /* heroMapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroMapKit.swift; sourceTree = "<group>"; };
 		31D40FB32C15D8BE00688F98 /* Heros3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heros3DView.swift; sourceTree = "<group>"; };
+		31D40FB52C15EB1E00688F98 /* Volume3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume3DView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				31D40FB32C15D8BE00688F98 /* Heros3DView.swift */,
+				31D40FB52C15EB1E00688F98 /* Volume3DView.swift */,
 			);
 			path = Heros3D;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				31BC984C2C15A20C0045297B /* models.swift in Sources */,
 				31D40FB42C15D8BE00688F98 /* Heros3DView.swift in Sources */,
 				31D40FB12C15D51C00688F98 /* heroMapKit.swift in Sources */,
+				31D40FB62C15EB1E00688F98 /* Volume3DView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

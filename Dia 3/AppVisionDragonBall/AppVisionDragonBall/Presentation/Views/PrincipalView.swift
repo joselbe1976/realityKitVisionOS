@@ -7,6 +7,8 @@
 
 import SwiftUI
 import KCNetworkVisionPro
+import RealityKit
+import RealityKitContent
 
 
 //Aqui solo los TABSView
@@ -46,9 +48,31 @@ struct PrincipalView: View {
             
             
             // ----------------------
-            // Relaity Kir. Sonido
+            // Reality Kit. Sonido
             // ----------------------
-            
+            RealityView{ content in
+                if let scene = try? await Entity(named: "Login", in: realityKitContentBundle){
+
+                    //busco el emisor
+                    guard let SoundEmitter = scene.findEntity(named: "SoundEmitter") else {
+                        return
+                    }
+                    
+                    //buscamos el audio
+                    guard let recourceSound = try? await AudioFileResource(named: "/Root/dragonBallCorto_wav", from: "Login.usda", in: realityKitContentBundle) else {
+                        NSLog("No encuenta el sonido")
+                        return
+                    }
+                    
+                    //asociado al emisor de Sonido el audio
+                    let audio = SoundEmitter.prepareAudio(recourceSound)
+                    audio.play()
+                    
+                    //añadimos la escenea a Content
+                    content.add(scene)
+                    
+                }
+            }
         }
     }
 }
