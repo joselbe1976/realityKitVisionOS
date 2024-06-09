@@ -11,6 +11,8 @@ import KCNetworkVisionPro
 struct HerosView: View {
     @Environment(AppStateVM.self) private var appStateVM
     @State var viewModel: HerosViewModel //view model de heros
+    @Environment(\.openWindow) private var openWindow
+    
     
     //heroe seleccionado
     @State private var selectedHero: HerosData?
@@ -94,7 +96,8 @@ struct HerosView: View {
                     if let hero = selectedHero {
                         appStateVM.setHero(hero: hero)
                         
-                        //TODO: LLamar a la ventana de localizaciones
+                        //Abrir la ventana nueva de Mapa
+                        openWindow(id: "mapa")
                     }
                     
                 }, label: {

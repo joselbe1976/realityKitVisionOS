@@ -14,6 +14,9 @@ struct AppVisionDragonBallApp: App {
     
     
     var body: some Scene {
+        
+        //ventana Main
+        
         WindowGroup {
             rootView()
                 .environment(appState)
@@ -22,5 +25,15 @@ struct AppVisionDragonBallApp: App {
         }
         .windowStyle(.plain) //es una ventana plana normal
         .windowResizability(.contentMinSize)//Aplica al redimensionar los tamaños minimo
+        
+        
+        //ventana de Mapa de un Heroe
+        WindowGroup(id: "mapa") {
+            heroMapKit()
+                .environment(appState)
+        }
+        .windowStyle(.automatic)
+        .defaultSize(width: 1000.0, height: 1000.0)
+        
     }
 }

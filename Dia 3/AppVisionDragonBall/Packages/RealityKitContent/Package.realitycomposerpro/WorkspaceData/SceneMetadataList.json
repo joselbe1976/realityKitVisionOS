@@ -11,10 +11,79 @@
       }
     ]
   },
+  "2FBD9158-ECE4-4338-8331-41EBD38FDAB8" : {
+    "objectMetadataList" : [
+      [
+        "2FBD9158-ECE4-4338-8331-41EBD38FDAB8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2FBD9158-ECE4-4338-8331-41EBD38FDAB8",
+        "Root",
+        "SoundEmitter"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/vegeta\/Vegatable_wav"
+        }
+      },
+      [
+        "2FBD9158-ECE4-4338-8331-41EBD38FDAB8",
+        "Root",
+        "vegeta"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "65F6F990-A780-4474-B78B-572E0E4E273D" : {
     "objectMetadataList" : [
       [
         "65F6F990-A780-4474-B78B-572E0E4E273D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "520AFDB7-43C3-4647-B5B4-D4DB5682ED46" : {
+    "objectMetadataList" : [
+      [
+        "520AFDB7-43C3-4647-B5B4-D4DB5682ED46",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "520AFDB7-43C3-4647-B5B4-D4DB5682ED46",
+        "Root",
+        "SoundEmitter"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/goku\/goku_wav"
+        }
+      }
+    ]
+  },
+  "9515CE42-AC45-4071-81A6-12DC0DB3B49A" : {
+    "objectMetadataList" : [
+      [
+        "9515CE42-AC45-4071-81A6-12DC0DB3B49A",
         "Root"
       ],
       {
@@ -40,7 +109,7 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "Sphere_Left"
+        "Sphere_Right"
       ],
       {
         "isExpanded" : true,
@@ -49,7 +118,7 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "Sphere_Right"
+        "Sphere_Left"
       ],
       {
         "isExpanded" : true,

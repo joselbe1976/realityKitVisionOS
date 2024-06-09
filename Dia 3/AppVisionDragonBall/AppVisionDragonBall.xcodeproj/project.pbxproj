@@ -20,6 +20,8 @@
 		31BC98562C15B6B20045297B /* HerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC98552C15B6B20045297B /* HerosViewModel.swift */; };
 		31BC98592C15B86B0045297B /* HerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC98582C15B86B0045297B /* HerosView.swift */; };
 		31BC985B2C15BC570045297B /* HerosRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC985A2C15BC570045297B /* HerosRowView.swift */; };
+		31D40FB12C15D51C00688F98 /* heroMapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D40FB02C15D51C00688F98 /* heroMapKit.swift */; };
+		31D40FB42C15D8BE00688F98 /* Heros3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D40FB32C15D8BE00688F98 /* Heros3DView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		31BC98552C15B6B20045297B /* HerosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosViewModel.swift; sourceTree = "<group>"; };
 		31BC98582C15B86B0045297B /* HerosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosView.swift; sourceTree = "<group>"; };
 		31BC985A2C15BC570045297B /* HerosRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosRowView.swift; sourceTree = "<group>"; };
+		31D40FB02C15D51C00688F98 /* heroMapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroMapKit.swift; sourceTree = "<group>"; };
+		31D40FB32C15D8BE00688F98 /* Heros3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heros3DView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 		31BC984A2C15A1E70045297B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				31D40FB22C15D8A400688F98 /* Heros3D */,
 				31BC98572C15B85A0045297B /* Heros */,
 				31BC984F2C15AB8F0045297B /* rootView.swift */,
 				31BC98512C15AC7F0045297B /* loginView.swift */,
@@ -148,8 +153,17 @@
 			children = (
 				31BC98582C15B86B0045297B /* HerosView.swift */,
 				31BC985A2C15BC570045297B /* HerosRowView.swift */,
+				31D40FB02C15D51C00688F98 /* heroMapKit.swift */,
 			);
 			path = Heros;
+			sourceTree = "<group>";
+		};
+		31D40FB22C15D8A400688F98 /* Heros3D */ = {
+			isa = PBXGroup;
+			children = (
+				31D40FB32C15D8BE00688F98 /* Heros3DView.swift */,
+			);
+			path = Heros3D;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +252,8 @@
 				31BC984E2C15A24A0045297B /* AppStateVM.swift in Sources */,
 				31BC98592C15B86B0045297B /* HerosView.swift in Sources */,
 				31BC984C2C15A20C0045297B /* models.swift in Sources */,
+				31D40FB42C15D8BE00688F98 /* Heros3DView.swift in Sources */,
+				31D40FB12C15D51C00688F98 /* heroMapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

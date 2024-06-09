@@ -32,7 +32,7 @@ struct PrincipalView: View {
                             )
                         }
                     
-                    Text("Heroes 3D")
+                    Heros3DView(viewModel: vm)
                         .tabItem {
                             Label(
                                 title: { Text("Heroes 3D") },
