@@ -16,7 +16,7 @@ struct rootView: View {
             VStack{
                 switch (appStateVM.status){
                 case .none:
-                    Text("login")
+                    loginView()
                 case .error(error: let errorString):
                     Text("Error \(errorString)")
                 case .loaded:
